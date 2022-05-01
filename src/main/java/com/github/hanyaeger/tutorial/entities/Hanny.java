@@ -18,7 +18,7 @@ import java.util.Set;
 
 public class Hanny extends DynamicSpriteEntity implements KeyListener, SceneBorderCrossingWatcher, Newtonian, Collided {
     private HealthText healthText;
-    private int health = 1;
+    private int health = 5;
     private WaterWorld waterWorld;
 
     public Hanny(Coordinate2D location, HealthText healthText, WaterWorld waterWorld) {
